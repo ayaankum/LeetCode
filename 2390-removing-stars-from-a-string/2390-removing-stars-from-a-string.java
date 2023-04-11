@@ -7,7 +7,7 @@ class Solution {
                 stack.add(c);
             }
             else if(c == '*'){
-                stack.removeLast();
+                stack.pollLast();
             }
         }
         
